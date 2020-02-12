@@ -1,0 +1,309 @@
+
+body
+{
+    background: black;
+    background-size: 2200px;
+    color: white;
+    height: 20px;
+}
+#wczytywanie
+{
+    color: black;
+}
+#tresc
+{
+    color: white;
+    text-align: left;
+}
+#kontener1
+{
+    clear: both;
+    float: top;
+    padding-bottom: 1px;
+    box-shadow: 0px 3px 71px 19px rgba(37,181,217,1);
+    
+}
+
+
+
+
+
+
+#kontener
+{
+    margin-top: 1%;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: white;
+}
+#kontener label
+{
+    color: white;
+}
+#kontener_warning
+{
+    
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    
+    color: white;
+    -webkit-box-shadow: -11px 11px 199px 52px rgba(250,5,213,1);
+    -moz-box-shadow: -11px 11px 199px 52px rgba(250,5,213,1);
+    box-shadow: -11px 11px 199px 52px rgba(250,5,213,1);
+    
+}
+
+
+#kontener_warning h1
+{
+    margin-top: 3%;
+}
+
+
+#kontener h1,h2,h3
+{
+    color: white;
+    
+}
+ul
+{
+    color: white;
+}
+#logowanie
+{
+    padding: 1px;
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+   
+    color: white;
+box-shadow: 0px 3px 39px 15px rgba(145,10,255,1);    
+}
+#logowanie label
+{
+    color: white;
+    font-size: 30px;
+    font-family: 'comic sans ms';
+}
+h4
+{
+    color: white;
+    font-size: 30px;
+    font-family: 'comic sans ms';
+}
+#nazwa_biura
+{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'comic sans ms';
+    opacity: 1;
+    top: 4.7em;
+
+}
+
+#nav
+{
+    opacity: 0.8;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 3px solid white;
+    font-size: 100%;
+    
+}
+
+ul#nav li
+{
+    opacity: 0.8;
+    list-style-type: none;
+    background: aqua;
+    margin-left: 3px;
+    font-size: 25px;
+    float: left;
+    font-family: cursive;
+    width: 170px;
+}
+
+ul#nav li a
+{
+    display: block;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 100%;
+    font-family: cursive;
+    text-align: center;
+    
+}
+ul#nav li:hover
+{
+    background: plum;
+    float: left;
+    
+-webkit-box-shadow: -11px 11px 199px 11px rgba(250,5,213,1);
+-moz-box-shadow: -11px 11px 199px 11px rgba(250,5,213,1);
+box-shadow: -11px 11px 199px 11px rgba(250,5,213,1);
+    
+}
+#oferta
+{
+    color: white;
+    font-family: arial;
+    opacity: 0.9;
+}
+.btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)}
+
+.btn-grad:hover 
+{
+    background-position: right center; 
+}
+
+.jumpers
+{
+	text-align: center;
+        margin-top: 1%;
+}
+
+.jumpers h1
+{
+    color: white;
+}
+.jumpers img
+{
+	width: 100%;
+        max-width: 500px;
+	height: auto;
+}
+
+
+
+@media screen and (max-width:500px)
+{
+    select #termin_wycieczki option
+    {
+        width: 10px;
+    }
+    
+    
+    .jumpers h1, h2
+    {
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    #oferta h2
+    {
+        font-size: 80%;
+        text-align: left;
+    }
+    ul
+    {
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    #logowanie td
+    {
+        height: 10px;
+        display: inline-table;
+        color: black;
+    }
+  
+   
+    #logowanie h4, h1
+    {
+        font-size: 120%;
+    }
+    
+    #logowanie{
+        margin: auto;
+        margin: auto;
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    #kontener_warning
+    { 
+        margin: auto;
+        margin: auto;
+        width: 100%;
+        margin-top: 3%;
+    }
+    #kontener_warning h1
+    {
+        font-size: 100%;
+    }
+    #kontener3
+    {
+    margin-top: 100px;
+    width: 100%;
+    color: white;
+    box-shadow: 0px 3px 39px 15px rgba(10,226,255,1);
+    }
+    #logowanie label
+    {
+        font-size: 20px;
+    }   
+    #logowanie table input
+    {
+        height: 25px;
+        
+    }
+    #logowanie option
+    {
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 500px) 
+{
+    
+    .jumpers h1, h2
+    {
+        font-size: 100%;
+        text-align: center
+    }
+    
+    #oferta h2
+    {
+        font-size: 100%;
+        text-align: center
+    }
+    ul
+    {
+        font-size: 100%;
+        text-align: center;
+        list-style-type: none;
+    }
+    #logowanie{
+        margin: auto;
+        margin: auto;
+        width: 80%;
+        margin-top: 10%;
+    }
+    #kontener_warning
+    { 
+        margin: auto;
+        margin: auto;
+        width: 80%;
+        margin-top: 3%;
+    }
+    #kontener3
+    {
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 0px 3px 39px 15px rgba(10,226,255,1);
+    }
+    
+    
+}
